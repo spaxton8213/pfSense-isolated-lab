@@ -14,7 +14,7 @@ to reduce risk and allow safe experimentation with Windows Server and directory 
 - Virtual router: pfSense
 - WAN interface: VirtualBox NAT (outbound connectivity without direct LAN exposure)
 - LAN interface: Internal virtual network
-- Systems: Windows 10, Windows Server 2025
+- Systems: Windows 10, Windows Server 2022
 
 ## Subnet & Design Decisions
 Although the lab is isolated from the physical network using VirtualBox NAT, the internal
