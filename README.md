@@ -27,8 +27,8 @@ The base lab environment has been deployed and validated.
 Active Directory configuration is currently in progress.
 
 ## pfSense Network Settings
-WAN (en0) [via virtualbox dhcpserver]: 10.0.2.x/24
-LAN (en1): 192.168.1.129/25
+WAN (en0) [via virtualbox dhcpserver]: 10.0.2.x/24,
+LAN (en1): 192.168.1.129/25,
 DHCP scope: 192.168.1.130-.254
 
 
