@@ -36,5 +36,3 @@ Not sure how it happened but missed the DHCP scope assignment during configurati
 Issue(s): Windows Server could not be assigned IP address from pfSense DHCP server, resulting in APIPA address.
 Fix: reset IP address interfaces in pfSense, AND made sure to include DHCP scope.
 Verified fix by running 'ipconfig /release' then 'ipconfig /renew' in Windows Server CMD. Then ran 'ipconfig /all'. WS is now correctly connected to the pfSense gateway.
-
-# Fin (for now)
