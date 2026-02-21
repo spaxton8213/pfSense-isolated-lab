@@ -29,7 +29,7 @@ The base lab environment has been deployed and validated.
 ## pfSense Network Settings
 WAN (en0) [via virtualbox dhcpserver]: 10.0.2.15/24,
 LAN (en1): 192.168.1.129/25,
-DHCP scope: 192.168.1.130-.254
+DHCP scope: 192.168.1.130-192.168.1.254
 
 ## Notes/lessons learned
 Not sure how it happened but missed the DHCP scope assignment during configuration for 'Set interface(s) IP address' option in pfSense.
