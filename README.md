@@ -37,4 +37,4 @@ Issue(s): Windows Server could not be assigned IP address from pfSense DHCP serv
 Fix: reset IP address interfaces in pfSense, AND made sure to include DHCP scope.
 Verified fix by running 'ipconfig /release' then 'ipconfig /renew' in Windows Server CMD. Then ran 'ipconfig /all'. WS is now correctly connected to the pfSense gateway.
 
-Fin (for now)
+# Fin (for now)
