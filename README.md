@@ -31,5 +31,10 @@ WAN (en0) [via virtualbox dhcpserver]: 10.0.2.15/24,
 LAN (en1): 192.168.1.129/25,
 DHCP scope: 192.168.1.130-.254
 
+## Notes/lessons learned
+Not sure how it happened but missed the DHCP scope assignment during configuration for 'Set interface(s) IP address' option in pfSense.
+Issue(s): Windows Server could not be assigned IP address from pfSense DHCP server, resulting in APIPA address.
+Fix: reset IP address interfaces in pfSense, AND made sure to include DHCP scope.
+Verified fix by running 'ipconfig /release' then 'ipconfig /renew' in Windows Server CMD. Then ran 'ipconfig /all'. WS is now correctly connected to the pfSense gateway.
 
-
+Fin (for now)
