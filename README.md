@@ -1,5 +1,5 @@
 # pfSense-isolated-lab
-pfSense-based virtual router used to simulate an isolated enterprise-style network environment supporting Windows Server 2025 and Windows 10 clients.
+pfSense-based virtual router used to simulate an isolated enterprise-style network environment supporting Windows Server 2022 and Windows 10 clients.
 
 
 ## Overview
@@ -24,7 +24,7 @@ allocation scenarios commonly encountered in live environments.
 
 ## Current Status
 The base lab environment has been deployed and validated.
-Active Directory configuration is currently in progress.
+--Active Directory configuration is currently in progress (see separate readme).
 
 ## pfSense Network Settings
 WAN (en0) [via virtualbox dhcpserver]: 10.0.2.x/24,
